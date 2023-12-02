@@ -1,3 +1,9 @@
+use crate::day_1::star_1;
+
+mod day_1 {
+    pub mod star_1;
+}
+
 fn main() {
-    println!("Hello, world!");
+    star_1::run();
 }
