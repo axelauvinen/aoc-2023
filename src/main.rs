@@ -1,9 +1,10 @@
-use crate::day_1::star_1;
+use crate::day_1::star_2;
 
 mod day_1 {
     pub mod star_1;
+    pub mod star_2;
 }
 
 fn main() {
-    star_1::run();
+    star_2::run()
 }
