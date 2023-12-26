@@ -25,6 +25,7 @@ fn main() {
         ("1", "1") => day_1::star_1::run(),
         ("1", "2") => day_1::star_2::run(),
         ("2", "1") => day_2::star_1::run(),
+        ("2", "2") => day_2::star_2::run(),
         // Add other days and stars here
         _ => eprintln!("Invalid day or star"),
     }
